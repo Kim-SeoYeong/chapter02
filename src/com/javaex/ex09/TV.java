@@ -15,18 +15,7 @@ public class TV {
 	}
 	
 	//메소드 - getter / setter는 생략
-	public int getChannel() {
-		return channel;
-	}
-	
-	public int getVolume() {
-		return volume;
-	}
-	
-	public boolean getPower() {
-		return power;
-	}
-	
+
 	//메소드 
 	public void power(boolean on) {
 		if (on == true) {
